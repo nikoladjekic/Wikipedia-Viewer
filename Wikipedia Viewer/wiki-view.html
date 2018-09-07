@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="wiki-view-style.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="animated fadeInDown">
+    		<h1 title="Click for a random Wikipedia Article"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-lg fa-wikipedia-w" aria-hidden="true"></i>ikipedia Viewer</a>
+    		</h1>
+
+    		<input class="form" id="searchTerm" placeholder="Search Wikipedia" title="Search Wikipedia">
+
+    		<button class="btn" id="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+ 		</div>
+
+ 		<ul id="searchResults">
+
+		</ul>
+
+	</div>
+
+	<script src="wiki-view-script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+</body>
+</html>

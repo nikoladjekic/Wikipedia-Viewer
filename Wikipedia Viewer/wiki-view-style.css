@@ -1,0 +1,54 @@
+body {
+  background: url("https://img.labnol.org/di/wikipedia-books.jpg");
+  background-size: cover;
+  font-family: serif;
+}
+
+.fa-wikipedia-w {
+  padding-left:5px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.form  {
+  background-color: rgba(255,250,240,0.4);
+  margin-bottom: 30px;
+  width: 240px;
+  height: 32px;
+}
+
+.btn:hover {
+  background: none;
+  font-size: 1.4em;
+}
+
+.btn {
+  transition: all 300ms ease;
+  background: none;
+}
+
+ul {
+  list-style-image: url("http://icons.iconarchive.com/icons/sykonist/popular-sites/16/Wikipedia-icon.png");
+  padding: 5px;
+}
+
+ul li {
+  background: linear-gradient(to left, rgba(242,242,242,1), rgba(222,222,222,0.3));  
+  border-radius: 6px;   
+  font-size: 18px;  
+  color: black;
+  padding-right: 15px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  animation-name: fader;
+  animation-duration: 320ms;
+}
+
+@keyframes fader {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1;}
+}
